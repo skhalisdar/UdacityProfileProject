@@ -1,0 +1,116 @@
+    <!--class="projects" -->
+    <!--
+ Req1. at least 4 images
+ Re2. title text (h1, h2, etc.)
+ Req3. regular(paragraph) text
+ Req.4 a logo
+
+  HTML5 semantic tags such as 
+  <header>, 
+    <footer>, 
+      <article>, 
+        <section> etc. are used 
+    to add meaning to the code.
+
+No <div> or <section> tags are without a CSS class or id.
+
+  provide at least one of the following customizations:
+
+  1. Customize images and text
+  2. Customize placement of the elements on the page (grid layout) with HTML, CSS or, both.
+  3. Customize CSS styles appoied at tminimum to paragraph and heading elements.
+
+  Grid-Based Layout
+  page utilizes a grid-based layout with styles making use of the flexbos layout or a framework like Bootstrap, Foundation,
+  etc.
+  If you're using Bootstrap: the rows andc columns of the grid must be wrapped in an element with a container
+  class
+-->
+
+
+    <!--
+  RESPONSIVENESS
+  displays on
+  1. Desktop
+  2. Mobile
+  3. Tablet
+
+  images associated title and text renders next to the image in all viewport sizes.
+  TIP: Test responsiveness with Chrome Developer Tools device emulation by right-clicking 
+  anywhere on page, selecting ‘Inspect Element’, clicking the rectangle to the left of the Elements tab, 
+  select Apple iPad 
+  or Google Nexus 5 from Device drop-down list, and click reload.
+
+  All contenets are renedered on all three devices.  No contenet should be hidden on mobile devices.
+
+  VIEWPORT META TAG
+    Viewport meta tag is included in html. (i.e. <meta name="viewport")
+
+  RESPONSIVE IMAGES
+    if a CSS framework is used, classes provided by the CSS framework are used to make images responsive,
+    otherwise media-queries are used to ensure responsieveness of images.
+-->
+
+    <!--
+  Seperation of Concerns
+
+  STYLES SEPERATED FROM HTML
+    Portfolio completely seperates structure (html) from design/style (css). There is no style attributes
+    present in the body of the HTML document. There are no <style> elemtn in the document.
+      note: it is acceptable to include eight and width attributes in <img> elements.
+
+  FILE STRUCTURE
+      files are organized with a diretory structure that seperates files based on functionality. for Example:
+      1. css/ for stylesheets
+      2. img/ for images
+      3. js/ for JavaScript files.
+-->
+
+    <!--
+  CODE QUALITY
+    HTML Formatting rules
+      1. all code (html element names, attributes, attribute values) is lowercase (except text/CDATA).
+      2. code does not have trailing white spaces
+      3. indentation is consistenet (either all tabs or all 2 spaces or all 4 spaces, etc.).
+      4. Code uses a new line for every block, list or table element and indent every such child element 
+          (it's acceptable to put all <li> elemtents in one line).
+      5. [OPTIONAL] when quoting attribute values, code uses double quoatation marks.
+   
+  HTML Style Rules
+    1. HTML documents use HTML5 <!doctype html>
+    2. Code passes HTML and CSS validators
+            [OPTIONAL] code does not use entity referenes unless necessary e.g. character with special
+            meaning in HTML (like<and&) as well as control or "invisible" characters
+            (like no-break spaces).
+          
+    3. [OPTIONAL] Code motis type attributes for style sheets and scripts
+
+  
+  CSS Formatting rules
+    1. Code does not have trailing white spaces
+    2. INdentation is consistent (either all tabs or all 2 spaces or all 4 spaces)
+    3. Code indents all block content, that is rules within rules as well as declatrations to 
+            reflect hierarchy and improve understanding.
+    4. Code uses a semicolon after every declaration for consistency and extensibility reasons.
+    5. Code always uses a space after a property name's colon, but no space between property and colon,
+    for sonsistency reasons
+    6. Code always use a single space between the last selector and the opening that begins the declaration block.
+    7. Code always start a new line for each selector and declaration.
+    8. Code always put a blank line (two line breaks) between rules.
+    8. [OPTIONAL] Code uses double quaotation marks for attribute seletors or property values.  Do not use quotation marks in URL
+    values (url()).
+
+  CSS STYLE RULES
+    1. Code uses meaningful or generic ID and class names that are as short as possible but as long as necessary
+    2. Code does not use element names in conjuntion with IDs or classes.
+    3. Code use[]s shorthand properties where possible.
+    4. [optional] Code omits unit specification after 0 values. 
+    5. [optional] Code iuses 3-character hexadecimal otation where possible.
+    6. [optional] Code seperate words in ID can class names by hyuphen.
+    7. [optional] Code avoids user agent detection as well as CSS "hacks"--try a different approach first.
+    8.
+  
+  General Meta Rules
+            HTML templates and documents use UTF-8 encoding. (no BOM) i.e. <meta charset="utf-8">
+            [optional] Mark todos and action items with TODO.
+  -->
